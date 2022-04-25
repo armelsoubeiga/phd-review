@@ -1,0 +1,21 @@
+# unsupervised and semi-supervised classification methods
+
+
+## Lecture 1
+
+Grira N,  Crucianu M,  & Boujemaa N.  Unsupervised and semi-supervised clustering: 
+A brief survey. In A review of machine learning techniques for processing multimedia 
+content, report of the muscle European network of excellence, 2004.
+
+[http://cedric.cnam.fr/~crucianm/src/BriefSurveyClustering.pdf](http://cedric.cnam.fr/~crucianm/src/BriefSurveyClustering.pdf)
+
+
+## Lecture 2
+E. Lebarbier, T. Mary-Huard. Classification non supervisée. AgroParisTech
+
+## Lecture 3
+DJIBEROU MAHAMADOU Abdoul Jalil. Development of clustering algorithms for categorical data and applications
+in Health
+
+[https://perso.isima.fr/~viantoin/PAPERS/thesis/these-2021-09-DjiberouAbdoul.pdf](https://perso.isima.fr/~viantoin/PAPERS/thesis/these-2021-09-DjiberouAbdoul.pdf)
+

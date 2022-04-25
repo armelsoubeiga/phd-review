@@ -1,0 +1,102 @@
+---
+title: "Review - Unsupervised classification for longitudinal data and trajectorie analysis"
+author: "Armel SOUBEIGA"
+date: "2022-04-20"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+description: Review - Unsupervised classification for longitudinal data and trajectorie analysis
+link-citations: yes
+github-repo: "armelsoubeiga/web-scraping-r"
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+```
+
+
+# About {-}
+This paper reports on the bibliographic research of my thesis on unsupervised classification for longitudinal data and trajectories analysis.
+
+## Objectives
+The objective is to synthesise the current state of research related to the topic (what others have done - said - found).
+
+## Definition
+unsupervised classification : **Unsupervised classification refers to a set of methods whose objective is to establish or recover an existing typology characterising a set of n observations, from p characteristics measured on each of the observations.**
+
+longitudinal data : **Longitudinal data is a series of repetitive observations of the same topics, collected over a period of time. Longitudinal data varies from cross-sectional data, since it tracks the same subjects over a period of time, whereas cross-sectional data samples different subjects  at every point of time.**
+
+trajectories data :
+
+## Delimitations
+We are only interested in unsupervised classification as an analysis method, with this differents terms :
+
+* unsupervised classification
+
+* unsupervised learning
+
+* clustering / partitioning
+
+
+## Keywords definition
+Direct terms :
+
+* unsupervised classification of trajectories
+
+* data unsupervised classification of longitudinal data
+
+Synonymous terms :
+
+* clustering of trajectories
+
+* automatical classification of trajectories 
+
+* clustering of longitudinal data
+
+* automatical classification of longitudinal 
+
+Indirect terms :
+
+* classification of *life*, *health*, *care* pathways
+
+* analysis of longitudinal data
+
+* analysis of trajectories
+
+
+## Types of information
+
+In the literature review, we are looking for theoretical analyses or examples of applications (longitudinal data, trajectory data, source code)
+
+
+## The ressources
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+pkglist <- data.frame(
+  A=c('[Google Scholar](https://scholar.google.com/ "Google Scholar")','[Cairn](https://www.cairn.info/)','[Science Direct](https://www.sciencedirect.com/)'),
+ B=c("Articles académiques","Articles académiques","Articles académiques, Actes de congrès, Résumés de livres"))
+knitr::kable(pkglist, col.names = c("Ressource", "Type"), 
+             booktabs = TRUE) %>%
+kableExtra::kable_styling(font_size = 10)
+```
+
+## Bibliographic review management
+
+1. Do a quick refresh of the list of unsupervised and semi-supervised classification methods.
+2. Find articles treating exactly with the subject (reference articles)
+3. Extend the reading
+
+* For each article reading, I will summarize it according to : the title, authors,
+date and location of article publication, the problem, limits and advantages of the results.
+
+* Then, I will archive it to my account **[mendeley](https://www.mendeley.com/reference-management/reference-manager)**
+
+* At end, I will do repport (presentation) to Violaine and the team if necessary.
+
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```

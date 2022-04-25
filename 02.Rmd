@@ -1,0 +1,14 @@
+# Unsupervised classification for longitudinal data and trajectories (reference articles)
+
+## Paper 1
+
+Philippe Apparicio,  Mylène  Riva  and  Anne-Marie  Séguin.  A  comparison  of  two 
+methods  for  classifying  trajectories:  a  case  study  on  neighborhood  poverty  at the intra-metropolitan level in Montreal. European Journal of Geography, Space, Society, Territory, document 727, Online since 04 June 2015, connection on 07 July 2021. 
+URL: [http://journals.openedition.org/cybergeo/27035](http://journals.openedition.org/cybergeo/27035)
+
+
+## Paper 2
+
+Classification et Prévision des Données Hétérogènes : Application aux Trajectoires et Séjours Hospitaliers.
+
+[https://perso.univ-lyon1.fr/haytham.elghazel/Papers/Pdf/Rapport_These.pdf](https://perso.univ-lyon1.fr/haytham.elghazel/Papers/Pdf/Rapport_These.pdf)
