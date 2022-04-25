@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Review - Unsupervised classification for longitudinal data and trajectorie analysis</title>
+  <meta name="description" content="Review - Unsupervised classification for longitudinal data and trajectorie analysis" />
+  <meta name="generator" content="bookdown 0.25.5 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Review - Unsupervised classification for longitudinal data and trajectorie analysis" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="Review - Unsupervised classification for longitudinal data and trajectorie analysis" />
+  <meta name="github-repo" content="armelsoubeiga/web-scraping-r" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Review - Unsupervised classification for longitudinal data and trajectorie analysis" />
+  
+  <meta name="twitter:description" content="Review - Unsupervised classification for longitudinal data and trajectorie analysis" />
+  
+
+<meta name="author" content="Armel SOUBEIGA" />
+
+
+<meta name="date" content="2022-04-20" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+
+<link rel="next" href="unsupervised-and-semi-supervised-classification-methods.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Review - Unsupervised classification for longitudinal data and trajectorie analysis</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>About</a>
+<ul>
+<li class="chapter" data-level="0.1" data-path="index.html"><a href="index.html#objectives"><i class="fa fa-check"></i><b>0.1</b> Objectives</a></li>
+<li class="chapter" data-level="0.2" data-path="index.html"><a href="index.html#definition"><i class="fa fa-check"></i><b>0.2</b> Definition</a></li>
+<li class="chapter" data-level="0.3" data-path="index.html"><a href="index.html#delimitations"><i class="fa fa-check"></i><b>0.3</b> Delimitations</a></li>
+<li class="chapter" data-level="0.4" data-path="index.html"><a href="index.html#keywords-definition"><i class="fa fa-check"></i><b>0.4</b> Keywords definition</a></li>
+<li class="chapter" data-level="0.5" data-path="index.html"><a href="index.html#types-of-information"><i class="fa fa-check"></i><b>0.5</b> Types of information</a></li>
+<li class="chapter" data-level="0.6" data-path="index.html"><a href="index.html#the-ressources"><i class="fa fa-check"></i><b>0.6</b> The ressources</a></li>
+<li class="chapter" data-level="0.7" data-path="index.html"><a href="index.html#bibliographic-review-management"><i class="fa fa-check"></i><b>0.7</b> Bibliographic review management</a></li>
+</ul></li>
+<li class="chapter" data-level="1" data-path="unsupervised-and-semi-supervised-classification-methods.html"><a href="unsupervised-and-semi-supervised-classification-methods.html"><i class="fa fa-check"></i><b>1</b> unsupervised and semi-supervised classification methods</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="unsupervised-and-semi-supervised-classification-methods.html"><a href="unsupervised-and-semi-supervised-classification-methods.html#lecture-1"><i class="fa fa-check"></i><b>1.1</b> Lecture 1</a></li>
+<li class="chapter" data-level="1.2" data-path="unsupervised-and-semi-supervised-classification-methods.html"><a href="unsupervised-and-semi-supervised-classification-methods.html#lecture-2"><i class="fa fa-check"></i><b>1.2</b> Lecture 2</a></li>
+<li class="chapter" data-level="1.3" data-path="unsupervised-and-semi-supervised-classification-methods.html"><a href="unsupervised-and-semi-supervised-classification-methods.html#lecture-3"><i class="fa fa-check"></i><b>1.3</b> Lecture 3</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="unsupervised-classification-for-longitudinal-data-and-trajectories-reference-articles.html"><a href="unsupervised-classification-for-longitudinal-data-and-trajectories-reference-articles.html"><i class="fa fa-check"></i><b>2</b> Unsupervised classification for longitudinal data and trajectories (reference articles)</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="unsupervised-classification-for-longitudinal-data-and-trajectories-reference-articles.html"><a href="unsupervised-classification-for-longitudinal-data-and-trajectories-reference-articles.html#paper-1"><i class="fa fa-check"></i><b>2.1</b> Paper 1</a></li>
+<li class="chapter" data-level="2.2" data-path="unsupervised-classification-for-longitudinal-data-and-trajectories-reference-articles.html"><a href="unsupervised-classification-for-longitudinal-data-and-trajectories-reference-articles.html#paper-2"><i class="fa fa-check"></i><b>2.2</b> Paper 2</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="extend-the-reading.html"><a href="extend-the-reading.html"><i class="fa fa-check"></i><b>3</b> Extend the reading</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Review - Unsupervised classification for longitudinal data and trajectorie analysis</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="header">
+<h1 class="title">Review - Unsupervised classification for longitudinal data and trajectorie analysis</h1>
+<p class="author"><em>Armel SOUBEIGA</em></p>
+<p class="date"><em>2022-04-20</em></p>
+</div>
+<div id="about" class="section level1 unnumbered hasAnchor">
+<h1>About<a href="index.html#about" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>This paper reports on the bibliographic research of my thesis on unsupervised classification for longitudinal data and trajectories analysis.</p>
+<div id="objectives" class="section level2 hasAnchor" number="0.1">
+<h2><span class="header-section-number">0.1</span> Objectives<a href="index.html#objectives" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>The objective is to synthesise the current state of research related to the topic (what others have done - said - found).</p>
+</div>
+<div id="definition" class="section level2 hasAnchor" number="0.2">
+<h2><span class="header-section-number">0.2</span> Definition<a href="index.html#definition" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>unsupervised classification : <strong>Unsupervised classification refers to a set of methods whose objective is to establish or recover an existing typology characterising a set of n observations, from p characteristics measured on each of the observations.</strong></p>
+<p>longitudinal data : <strong>Longitudinal data is a series of repetitive observations of the same topics, collected over a period of time. Longitudinal data varies from cross-sectional data, since it tracks the same subjects over a period of time, whereas cross-sectional data samples different subjects at every point of time.</strong></p>
+<p>trajectories data :</p>
+</div>
+<div id="delimitations" class="section level2 hasAnchor" number="0.3">
+<h2><span class="header-section-number">0.3</span> Delimitations<a href="index.html#delimitations" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>We are only interested in unsupervised classification as an analysis method, with this differents terms :</p>
+<ul>
+<li><p>unsupervised classification</p></li>
+<li><p>unsupervised learning</p></li>
+<li><p>clustering / partitioning</p></li>
+</ul>
+</div>
+<div id="keywords-definition" class="section level2 hasAnchor" number="0.4">
+<h2><span class="header-section-number">0.4</span> Keywords definition<a href="index.html#keywords-definition" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Direct terms :</p>
+<ul>
+<li><p>unsupervised classification of trajectories</p></li>
+<li><p>data unsupervised classification of longitudinal data</p></li>
+</ul>
+<p>Synonymous terms :</p>
+<ul>
+<li><p>clustering of trajectories</p></li>
+<li><p>automatical classification of trajectories</p></li>
+<li><p>clustering of longitudinal data</p></li>
+<li><p>automatical classification of longitudinal</p></li>
+</ul>
+<p>Indirect terms :</p>
+<ul>
+<li><p>classification of <em>life</em>, <em>health</em>, <em>care</em> pathways</p></li>
+<li><p>analysis of longitudinal data</p></li>
+<li><p>analysis of trajectories</p></li>
+</ul>
+</div>
+<div id="types-of-information" class="section level2 hasAnchor" number="0.5">
+<h2><span class="header-section-number">0.5</span> Types of information<a href="index.html#types-of-information" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>In the literature review, we are looking for theoretical analyses or examples of applications (longitudinal data, trajectory data, source code)</p>
+</div>
+<div id="the-ressources" class="section level2 hasAnchor" number="0.6">
+<h2><span class="header-section-number">0.6</span> The ressources<a href="index.html#the-ressources" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<table class="table" style="font-size: 10px; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+Ressource
+</th>
+<th style="text-align:left;">
+Type
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+<a href="https://scholar.google.com/" title="Google Scholar">Google Scholar</a>
+</td>
+<td style="text-align:left;">
+Articles académiques
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="https://www.cairn.info/">Cairn</a>
+</td>
+<td style="text-align:left;">
+Articles académiques
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="https://www.sciencedirect.com/">Science Direct</a>
+</td>
+<td style="text-align:left;">
+Articles académiques, Actes de congrès, Résumés de livres
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="bibliographic-review-management" class="section level2 hasAnchor" number="0.7">
+<h2><span class="header-section-number">0.7</span> Bibliographic review management<a href="index.html#bibliographic-review-management" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ol style="list-style-type: decimal">
+<li>Do a quick refresh of the list of unsupervised and semi-supervised classification methods.</li>
+<li>Find articles treating exactly with the subject (reference articles)</li>
+<li>Extend the reading</li>
+</ol>
+<ul>
+<li><p>For each article reading, I will summarize it according to : the title, authors,
+date and location of article publication, the problem, limits and advantages of the results.</p></li>
+<li><p>Then, I will archive it to my account <strong><a href="https://www.mendeley.com/reference-management/reference-manager">mendeley</a></strong></p></li>
+<li><p>At end, I will do repport (presentation) to Violaine and the team if necessary.</p></li>
+</ul>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+
+<a href="unsupervised-and-semi-supervised-classification-methods.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/USERNAME/REPO/edit/BRANCH/index.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["review-phd.pdf", "review-phd.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

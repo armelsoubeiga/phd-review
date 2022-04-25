@@ -1,0 +1,15 @@
+objectives
+definition
+delimitations
+keywords-definition
+types-of-information
+the-ressources
+bibliographic-review-management
+unsupervised-and-semi-supervised-classification-methods
+lecture-1
+lecture-2
+lecture-3
+unsupervised-classification-for-longitudinal-data-and-trajectories-reference-articles
+paper-1
+paper-2
+extend-the-reading

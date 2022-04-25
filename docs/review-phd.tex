@@ -1,0 +1,267 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{book}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={Review - Unsupervised classification for longitudinal data and trajectorie analysis},
+  pdfauthor={Armel SOUBEIGA},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+\usepackage{booktabs}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{tabu}
+\usepackage{threeparttable}
+\usepackage{threeparttablex}
+\usepackage[normalem]{ulem}
+\usepackage{makecell}
+\usepackage{xcolor}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage[]{natbib}
+\bibliographystyle{plainnat}
+
+\title{Review - Unsupervised classification for longitudinal data and trajectorie analysis}
+\author{Armel SOUBEIGA}
+\date{2022-04-20}
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\hypertarget{about}{%
+\chapter*{About}\label{about}}
+\addcontentsline{toc}{chapter}{About}
+
+This paper reports on the bibliographic research of my thesis on unsupervised classification for longitudinal data and trajectories analysis.
+
+\hypertarget{objectives}{%
+\section{Objectives}\label{objectives}}
+
+The objective is to synthesise the current state of research related to the topic (what others have done - said - found).
+
+\hypertarget{definition}{%
+\section{Definition}\label{definition}}
+
+unsupervised classification : \textbf{Unsupervised classification refers to a set of methods whose objective is to establish or recover an existing typology characterising a set of n observations, from p characteristics measured on each of the observations.}
+
+longitudinal data : \textbf{Longitudinal data is a series of repetitive observations of the same topics, collected over a period of time. Longitudinal data varies from cross-sectional data, since it tracks the same subjects over a period of time, whereas cross-sectional data samples different subjects at every point of time.}
+
+trajectories data :
+
+\hypertarget{delimitations}{%
+\section{Delimitations}\label{delimitations}}
+
+We are only interested in unsupervised classification as an analysis method, with this differents terms :
+
+\begin{itemize}
+\item
+  unsupervised classification
+\item
+  unsupervised learning
+\item
+  clustering / partitioning
+\end{itemize}
+
+\hypertarget{keywords-definition}{%
+\section{Keywords definition}\label{keywords-definition}}
+
+Direct terms :
+
+\begin{itemize}
+\item
+  unsupervised classification of trajectories
+\item
+  data unsupervised classification of longitudinal data
+\end{itemize}
+
+Synonymous terms :
+
+\begin{itemize}
+\item
+  clustering of trajectories
+\item
+  automatical classification of trajectories
+\item
+  clustering of longitudinal data
+\item
+  automatical classification of longitudinal
+\end{itemize}
+
+Indirect terms :
+
+\begin{itemize}
+\item
+  classification of \emph{life}, \emph{health}, \emph{care} pathways
+\item
+  analysis of longitudinal data
+\item
+  analysis of trajectories
+\end{itemize}
+
+\hypertarget{types-of-information}{%
+\section{Types of information}\label{types-of-information}}
+
+In the literature review, we are looking for theoretical analyses or examples of applications (longitudinal data, trajectory data, source code)
+
+\hypertarget{the-ressources}{%
+\section{The ressources}\label{the-ressources}}
+
+\begin{table}
+\centering\begingroup\fontsize{10}{12}\selectfont
+
+\begin{tabular}{ll}
+\toprule
+Ressource & Type\\
+\midrule
+{}[Google Scholar](https://scholar.google.com/ "Google Scholar") & Articles académiques\\
+{}[Cairn](https://www.cairn.info/) & Articles académiques\\
+{}[Science Direct](https://www.sciencedirect.com/) & Articles académiques, Actes de congrès, Résumés de livres\\
+\bottomrule
+\end{tabular}
+\endgroup{}
+\end{table}
+
+\hypertarget{bibliographic-review-management}{%
+\section{Bibliographic review management}\label{bibliographic-review-management}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Do a quick refresh of the list of unsupervised and semi-supervised classification methods.
+\item
+  Find articles treating exactly with the subject (reference articles)
+\item
+  Extend the reading
+\end{enumerate}
+
+\begin{itemize}
+\item
+  For each article reading, I will summarize it according to : the title, authors,
+  date and location of article publication, the problem, limits and advantages of the results.
+\item
+  Then, I will archive it to my account \textbf{\href{https://www.mendeley.com/reference-management/reference-manager}{mendeley}}
+\item
+  At end, I will do repport (presentation) to Violaine and the team if necessary.
+\end{itemize}
+
+\hypertarget{unsupervised-and-semi-supervised-classification-methods}{%
+\chapter{unsupervised and semi-supervised classification methods}\label{unsupervised-and-semi-supervised-classification-methods}}
+
+\hypertarget{lecture-1}{%
+\section{Lecture 1}\label{lecture-1}}
+
+Grira N, Crucianu M, \& Boujemaa N. Unsupervised and semi-supervised clustering:
+A brief survey. In A review of machine learning techniques for processing multimedia
+content, report of the muscle European network of excellence, 2004.
+
+\url{http://cedric.cnam.fr/~crucianm/src/BriefSurveyClustering.pdf}
+
+\hypertarget{lecture-2}{%
+\section{Lecture 2}\label{lecture-2}}
+
+E. Lebarbier, T. Mary-Huard. Classification non supervisée. AgroParisTech
+
+\hypertarget{lecture-3}{%
+\section{Lecture 3}\label{lecture-3}}
+
+DJIBEROU MAHAMADOU Abdoul Jalil. Development of clustering algorithms for categorical data and applications
+in Health
+
+\url{https://perso.isima.fr/~viantoin/PAPERS/thesis/these-2021-09-DjiberouAbdoul.pdf}
+
+\hypertarget{unsupervised-classification-for-longitudinal-data-and-trajectories-reference-articles}{%
+\chapter{Unsupervised classification for longitudinal data and trajectories (reference articles)}\label{unsupervised-classification-for-longitudinal-data-and-trajectories-reference-articles}}
+
+\hypertarget{paper-1}{%
+\section{Paper 1}\label{paper-1}}
+
+Philippe Apparicio, Mylène Riva and Anne-Marie Séguin. A comparison of two
+methods for classifying trajectories: a case study on neighborhood poverty at the intra-metropolitan level in Montreal. European Journal of Geography, Space, Society, Territory, document 727, Online since 04 June 2015, connection on 07 July 2021.
+URL: \url{http://journals.openedition.org/cybergeo/27035}
+
+\hypertarget{paper-2}{%
+\section{Paper 2}\label{paper-2}}
+
+Classification et Prévision des Données Hétérogènes : Application aux Trajectoires et Séjours Hospitaliers.
+
+\url{https://perso.univ-lyon1.fr/haytham.elghazel/Papers/Pdf/Rapport_These.pdf}
+
+\hypertarget{extend-the-reading}{%
+\chapter{Extend the reading}\label{extend-the-reading}}
+
+  \bibliography{book.bib,packages.bib}
+
+\end{document}
