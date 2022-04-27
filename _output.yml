@@ -6,7 +6,7 @@ bookdown::gitbook:
         <li><a href="./">Review - Unsupervised classification for longitudinal data and trajectorie analysis</a></li>
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
-    edit: https://github.com/USERNAME/REPO/edit/BRANCH/%s
+    edit: https://github.com/armelsoubeiga/phd-review/%s
     download: ["pdf", "epub"]
 bookdown::pdf_book:
   includes:
